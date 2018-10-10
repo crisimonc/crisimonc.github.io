@@ -1,0 +1,154 @@
+html {
+    display: block;
+}
+
+
+#profile {
+	width: 20%;
+    border: 1px solid #cccccc;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+body {
+	background: #D66D75;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.big-name {
+    font-family: 'Monoton', cursive !important;
+    color: #343434;
+    font-size: 100px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+div {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+
+.list-inline li {
+    display: inline-block;
+    padding: 2px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+}
+
+
+.container {
+    width: 1300px;
+    margin: 30px auto;
+}
+
+.fa-facebook-f {
+	font-size: 25px;
+}
+
+.fa-linkedin-in {
+	font-size: 25px;
+}
+
+.fa-heart {
+	color: #FF2400;
+	font-size: 25px;
+
+}
+
+.cat {
+	margin: 0px;
+	padding: 0px;
+	height: 60%;
+}
+
+
+.pulse:hover, .pulse:focus {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+.pulse {
+  --color: white;
+  --hover: #78f900;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  border-radius: 30px;
+  font: inherit;
+  line-height: 1;
+  margin: 0.1em;
+  padding: 1em 1em;
+}
+
+code {
+  color: #e4cb58;
+  font: inherit;
+}
+
+table {
+	margin: 0 auto;
+}
+
+
