@@ -17,9 +17,9 @@ body {
     background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Didact Gothic', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #7d7d7d;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.6em;
 }
 
@@ -48,8 +48,8 @@ div {
 
 .card {
     background: white;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
     border-radius: 4px;
     box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
 }
@@ -62,7 +62,6 @@ a {
 
 .list-inline li {
     display: inline-block;
-    padding: 2px;
 }
 
 ul, menu, dir {
@@ -77,28 +76,24 @@ ul, menu, dir {
 
 
 .container {
-    width: 1300px;
-    margin: 30px auto;
+    width: 900px;
+    margin: 15px auto;
 }
 
 .fa-facebook-f {
-	font-size: 25px;
+	font-size: 20px;
+  font-weight: bold;
 }
 
 .fa-linkedin-in {
-	font-size: 25px;
+	font-size: 20px;
+  font-weight: bold;
 }
 
 .fa-heart {
 	color: #FF2400;
 	font-size: 25px;
 
-}
-
-.cat {
-	margin: 0px;
-	padding: 0px;
-	height: 60%;
 }
 
 
@@ -150,5 +145,6 @@ code {
 table {
 	margin: 0 auto;
 }
+
 
 
